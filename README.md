@@ -28,7 +28,7 @@ Add the dependency
  ```
  
  #### 2. Set default configuration
- Add a default config to app's style for all the theming options.
+ Add a default config to app's style -- need to set a value for all the config options.
  
  For example:
  ```xml
