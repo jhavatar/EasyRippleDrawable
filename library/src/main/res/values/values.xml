@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="erd_color_default">#D5D5D5</color>
+    <color name="erd_alpha_default">#FF000000</color>
+    <dimen name="erd_corner_radius_default">0dp</dimen>
+
+    <!--default theme-->
+    <style name="erd_default">
+        <item name="erd_color">@color/erd_color_default</item>
+        <item name="erd_alpha">@color/erd_alpha_default</item>
+        <item name="erd_shape">@drawable/erd_shape_rectangle</item>
+        <item name="erd_corner_radius">@dimen/erd_corner_radius_default</item>
+    </style>
+</resources>

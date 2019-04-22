@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="erd_color">@color/erd_color_default</item>
+        <item name="erd_alpha">@color/erd_alpha_default</item>
+        <item name="erd_shape">@drawable/erd_shape_rectangle</item>
+        <item name="erd_corner_radius">@dimen/erd_corner_radius_default</item>
+    </style>
+
+    <!--easy ripple drawable themes-->
+    <style name="ripple_rounded">
+        <item name="erd_color">#009688</item>
+        <item name="erd_shape">@drawable/erd_shape_rectangle</item>
+        <item name="erd_corner_radius">16dp</item>
+    </style>
+
+    <style name="ripple_programmatic">
+        <item name="erd_color">#1e88e5</item>
+        <item name="erd_shape">@drawable/erd_shape_rectangle</item>
+        <item name="erd_corner_radius">0dp</item>
+    </style>
+
+    <style name="ripple_oval">
+        <item name="erd_color">#f06292</item>
+        <item name="erd_shape">@drawable/erd_shape_oval</item>
+        <item name="erd_corner_radius">0dp</item>
+    </style>
+
+    <style name="ripple_transparent">
+        <item name="erd_alpha">#3F000000</item>
+    </style>
+
+</resources>

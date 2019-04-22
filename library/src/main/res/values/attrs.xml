@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="erd_color" format="color" />
+    <attr name="erd_alpha" format="color" />
+    <attr name="erd_shape" format="reference" />
+    <attr name="erd_corner_radius" format="dimension" />
+</resources>
