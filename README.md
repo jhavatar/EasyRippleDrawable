@@ -43,29 +43,42 @@ Add the dependency
 
 Set `@drawable/easy_ripple` as view's background or foreground. NB, view must have a click or touch listener set or `android:clickable="true"` for ripple to work.
 
+Note, by default the customization set in the app's style is used.
+
+Example:
+ ```
+ <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/my_button"
+    android:text="Round cornered button"
+    android:background="@drawable/easy_ripple"
+    android:clickable="true"/>
+ ```
+
 ## Customize
 
-By default the customization set in the app's style is used. To do view specific styling, create a style and set it as the view's theme:
+To do view specific styling, create a style and set it as the view's theme.
 
-in app's resources:
+In app's resources:
  ```
-<style name="my_button">
+<style name="my_button_theme">
     <item name="erd_color">#009688</item>
     <item name="erd_shape">@drawable/erd_shape_rectangle</item>
     <item name="erd_corner_radius">16dp</item>
 </style>
  ```
  
- in layout file:
+ In layout file:
  ```
  <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/view_rounded"
+    android:id="@+id/my_button"
     android:text="Round cornered button"
     android:background="@drawable/easy_ripple"
     android:clickable="true"
-    android:theme="@style/my_button"/>
+    android:theme="@style/my_button_theme"/>
  ```
 
 
