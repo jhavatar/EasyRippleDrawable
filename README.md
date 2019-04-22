@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/jhavatar/EasyRippleDrawable.svg)](https://jitpack.io/#jhavatar/EasyRippleDrawable)
 
 # Easy Ripple Drawable (ERD)
-A tiny library to display a ripple effect on touch/click anywhere in app.
+A tiny library to display a customizable ripple effect on view touch/click anywhere in app.
 
 ## Setup
 #### 1. Include the library
