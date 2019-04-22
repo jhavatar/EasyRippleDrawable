@@ -25,7 +25,7 @@ Add the dependency
  }
  ```
  
- #### 2. Default configuration
+ #### 2. Set default configuration
  Add a default config to app's style for all the theming options.
  
  For example:
@@ -38,7 +38,46 @@ Add the dependency
     <item name="erd_corner_radius">@dimen/erd_corner_radius_default</item>
 </style>
 ```
-        
+
+## Usage
+
+Set `@drawable/easy_ripple` as view's background or foreground. NB, view must have a click or touch listener set or `android:clickable="true"` for ripple to work.
+
+## Customize
+
+By default the customization set in the app's style is used. To do view specific styling, create a style and set it as the view's theme:
+
+in app's resources:
+ ```
+<style name="my_button">
+    <item name="erd_color">#009688</item>
+    <item name="erd_shape">@drawable/erd_shape_rectangle</item>
+    <item name="erd_corner_radius">16dp</item>
+</style>
+ ```
+ 
+ in layout file:
+ ```
+ <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/view_rounded"
+    android:text="Round cornered button"
+    android:background="@drawable/easy_ripple"
+    android:clickable="true"
+    android:theme="@style/my_button"/>
+ ```
+
+
+## Config Options
+
+- **erd_color** : The ripple's color. The default is a light gray.
+- **erd_shape** : The ripple's shape. can be either rectangular using `@drawable/erd_shape_rectangle` or oval, for circular views, using `@drawable/erd_shape_oval`. The default is rectangular.
+- **erd_corner_radius** : The corner radius when using `erd_shape == @drawable/erd_shape_rectangle`. The default is 0dp.
+- **erd_alpha** : The transparency of the ripple. You only need to change the alpha value on black. The default is `#FF000000`.
+
+
+
 
 ## Changelog
 v1.0.0 
