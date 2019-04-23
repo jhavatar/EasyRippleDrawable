@@ -23,7 +23,7 @@ Add the dependency
 
  ```groovy
  dependencies {
-     implementation "com.github.jhavatar:EasyRippleDrawable:1.0.0'
+     implementation 'com.github.jhavatar:EasyRippleDrawable:1.0.0'
  }
  ```
  
