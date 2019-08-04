@@ -11,29 +11,37 @@
         <item name="erd_alpha">@color/erd_alpha_default</item>
         <item name="erd_shape">@drawable/erd_shape_rectangle</item>
         <item name="erd_corner_radius">@dimen/erd_corner_radius_default</item>
+        <item name="erd_background">@drawable/rect_blue</item>
     </style>
 
     <!--easy ripple drawable themes-->
     <style name="ripple_rounded">
-        <item name="erd_color">#009688</item>
+        <item name="erd_color">@color/green</item>
         <item name="erd_shape">@drawable/erd_shape_rectangle</item>
         <item name="erd_corner_radius">16dp</item>
     </style>
 
     <style name="ripple_programmatic">
-        <item name="erd_color">#1e88e5</item>
+        <item name="erd_color">@color/blue</item>
         <item name="erd_shape">@drawable/erd_shape_rectangle</item>
         <item name="erd_corner_radius">0dp</item>
     </style>
 
     <style name="ripple_oval">
-        <item name="erd_color">#f06292</item>
+        <item name="erd_color">@color/pink</item>
         <item name="erd_shape">@drawable/erd_shape_oval</item>
         <item name="erd_corner_radius">0dp</item>
     </style>
 
     <style name="ripple_transparent">
         <item name="erd_alpha">#3F000000</item>
+    </style>
+
+    <style name="ripple_bg">
+        <item name="erd_color">@color/pink</item>
+        <item name="erd_shape">@drawable/erd_shape_rectangle</item>
+        <item name="erd_corner_radius">0dp</item>
+        <item name="erd_background">@drawable/ic_launcher_background</item>
     </style>
 
 </resources>

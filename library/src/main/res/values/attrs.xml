@@ -4,4 +4,5 @@
     <attr name="erd_alpha" format="color" />
     <attr name="erd_shape" format="reference" />
     <attr name="erd_corner_radius" format="dimension" />
+    <attr name="erd_background" format="reference" />
 </resources>

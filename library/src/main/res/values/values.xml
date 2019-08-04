@@ -10,5 +10,6 @@
         <item name="erd_alpha">@color/erd_alpha_default</item>
         <item name="erd_shape">@drawable/erd_shape_rectangle</item>
         <item name="erd_corner_radius">@dimen/erd_corner_radius_default</item>
+        <item name="erd_background">@drawable/erd_shape_rectangle</item>
     </style>
 </resources>
